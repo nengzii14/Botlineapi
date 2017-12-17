@@ -16,7 +16,7 @@ $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $groupId 	= $client->parseEvents()[0]['source']['groupId'];
-$replyToken = $client->parseEvents()[0]['replyToken'];
+$replyToken 	= $client->parseEvents()[0]['replyToken'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $type 		= $client->parseEvents()[0]['type'];
 
@@ -231,7 +231,7 @@ if($message['type']=='text') {
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Terimakasih stikernya... '										
+										'text' => 'Terimakasih stikernya...,jangan banyak2 stiker ya.. '										
 									
 									)
 							)
