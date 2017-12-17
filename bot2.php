@@ -213,7 +213,7 @@ if($message['type']=='text') {
 	}
 
 }else if($message['type']=='text') {
-	    if ($command == '/wc')
+	    if ($command == '/wc') {
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
@@ -226,7 +226,23 @@ if($message['type']=='text') {
 						
 	}
 
-else if($message['type']=='sticker')
+}else if($message['type']=='text') {
+	    if ($command == 'nah') {
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'kan',
+										'text' => 'kan'
+									)
+							)
+						);
+						
+	}
+
+
+}else if($message['type']=='sticker')
 {	
 	$balas = array(
 							'replyToken' => $replyToken,														
