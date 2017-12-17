@@ -217,7 +217,7 @@ if($message['type']=='text') {
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Halo.. Selamat datang di medantechno.com .        Untuk testing menu pilih 1,2,3,4,5 ... atau stiker'
+										'text' => 'Halo..Room FS3I, jangan lupa bahagia ya'
 									)
 							)
 						);
